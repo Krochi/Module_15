@@ -23,9 +23,9 @@ Original file is located at
 Google Colab — это бесплатная облачная платформа от Google для машинного обучения и анализа данных. Она позволяет выполнять код на Python в браузере с использованием облачных ресурсов.
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-print("Hello, Google Colab!")
+# from google.colab import drive
+# drive.mount('/content/drive')
+# print("Hello, Google Colab!")
 
 """3. Основы Python:
 
@@ -38,8 +38,8 @@ print("Hello, Google Colab!")
 Вызовите функцию и выведите результат на экран.
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 import random
 
 # Создаем список из 10 случайных чисел
@@ -65,9 +65,9 @@ print("Сумма чисел в списке:", result)
 Вычислите среднее значение массива и выведите его на экран.
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-!pip install numpy
+# from google.colab import drive
+# drive.mount('/content/drive')
+#!pip install numpy
 
 import numpy as np
 
@@ -84,9 +84,9 @@ print("Среднее значение массива:", mean_value)
 Загрузка CSV файла и чтение данных с использованием pandas:
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-!pip install pandas
+# from google.colab import drive
+# drive.mount('/content/drive')
+#!pip install pandas
 
 import pandas as pd
 
@@ -102,9 +102,9 @@ print(data.head())
 Установка библиотеки matplotlib и построение графика:
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-!pip install matplotlib
+# from google.colab import drive
+# drive.mount('/content/drive')
+# !pip install matplotlib
 
 import matplotlib.pyplot as plt
 
@@ -135,8 +135,8 @@ plt.show()
 Измените значение целевой переменной TARGET. Добейтесь (увеличивая при необходимости число итераций обучения) полного соответствия "нового индивида целевой переменной".
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 import random
 
 # Количество особей в каждом поколении
